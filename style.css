@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1b1b1d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid yellow; */
+  height: 100vh;
+}
+
+.container-card{
+  background-color: #3e3e43;
+  padding: 20px;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  /* margin: 0 auto; */
+}
+
+.card {
+  text-align: center;
+  list-style: none;
+  color: rgba(255, 255, 255, 0.4);
+}

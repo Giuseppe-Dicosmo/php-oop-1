@@ -20,7 +20,7 @@ class Movie
   }
 }
 
-$locandina = new Movie(
+$locandina0 = new Movie(
   "https://picsum.photos/seed/picsum/200/300",
   "Natale in Puglia",
   2022,
@@ -29,11 +29,21 @@ $locandina = new Movie(
   "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, velit corrupti consectetur minus repellat deserunt esse mollitia temporibus facilis quae excepturi harum necessitatibus cum saepe consequatur earum, odit tenetur ea!"
 );
 
-$locandina = new Movie(
+$locandina1 = new Movie(
   "https://picsum.photos/seed/picsum/200/300",
   "Natale in gioco",
   1960,
   "tragico",
+  "Italia",
+  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, velit corrupti consectetur minus repellat deserunt esse mollitia temporibus facilis quae excepturi harum necessitatibus cum saepe consequatur earum, odit tenetur ea!"
+);
+
+
+$locandina2 = new Movie(
+  "https://picsum.photos/seed/picsum/200/300",
+  "Natale",
+  1330,
+  "panico",
   "Italia",
   "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, velit corrupti consectetur minus repellat deserunt esse mollitia temporibus facilis quae excepturi harum necessitatibus cum saepe consequatur earum, odit tenetur ea!"
 );
